@@ -7,12 +7,12 @@
 
 1. Instale as dependências:
    bash
-   pip install -r requirements.txt
+   pip install -r requirements.txt  ou  py -m pip install -r requirements.txt
    
 
 2. Execute a API:
    bash
-   uvicorn main:app --reload
+   uvicorn main:app --reload  ou py -m uvicorn main:app --reload
    
 
 3. Acesse no navegador:   http://127.0.0.1:8000/docs
